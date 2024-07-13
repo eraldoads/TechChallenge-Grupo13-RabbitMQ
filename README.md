@@ -9,6 +9,11 @@ O deploy é realizado na AWS usando Terraform via Github Actions.
 🧑🏻‍💻 *<b>RM352316</b>*: Eraldo Antonio Rodrigues </br>
 🧑🏻‍💻 *<b>RM352032</b>*: Luís Felipe Amengual Tatsch </br>
 
+Utilizamos o serviço Amazon MQ da AWS para criarmos a instância do RabbitMQ:
+
+![image](https://github.com/user-attachments/assets/030d68d7-b40f-4a5f-9eed-52cc4cda4296)
+
 As filas são criadas dinamicamente pelos microsserviços Pedido e Pagamento.
 
-![image](https://github.com/user-attachments/assets/9ca2ea57-9007-4c4c-a912-18f2d7c8c382)
+![image](https://github.com/user-attachments/assets/5d650314-e6d8-47c0-84fd-ad72010158b7)
+
